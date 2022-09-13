@@ -7,14 +7,13 @@ public class Main {
 
         createFile();
         writeFile(calcPrimes(50));
-
     }
 
-    public static int[] calcPrimes(int count) {
-        int[] primesArr = new int[count];
+    public static int[] calcPrimes(int amount) {
+        int[] primesArr = new int[amount];
         int num = 3;
         boolean flip = true;
-        for(int i = 2, index = 0; index < count;) {
+        for(int i = 2, index = 0; index < amount;) {
             if(i == 2) {
                 primesArr[index] = 2;
                 index++;

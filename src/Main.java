@@ -34,6 +34,10 @@ public class Main {
         createFile();
         writeFile(primes);
     }
+    public static int[] calcPrimes(int primeCount) {
+        int[] tempArr = new int[primeCount];
+        return tempArr;
+    }
     public static void createFile() {
         try {
             File output = new File("C:\\Users\\micha\\Desktop\\first-primes.txt");

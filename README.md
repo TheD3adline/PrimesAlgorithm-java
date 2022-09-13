@@ -1,4 +1,4 @@
-# CB-PrimesAlgorithm-7-9-22
+# PrimesAlgorithm-java
 
 Little practice to search for the first 50 natural prime numbers
-and print them into a .txt file on the desktop
+and print them into a .txt file in output folder

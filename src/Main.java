@@ -9,6 +9,7 @@ public class Main {
         writeFile(calcPrimes(50));
 
     }
+
     public static int[] calcPrimes(int count) {
         int[] primesArr = new int[count];
         int num = 3;
@@ -36,6 +37,7 @@ public class Main {
         }
         return primesArr;
     }
+
     public static void createFile() {
         try {
             File output = new File("output\\primes.txt");
@@ -49,6 +51,7 @@ public class Main {
             e.printStackTrace();
         }
     }
+
     public static void writeFile(int[] primesArr) {
         try {
             FileWriter writeToFile = new FileWriter("output\\primes.txt");
